@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+	background-color: #B80000;
+	padding: 25px;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+.img{
+	margin-left: 50px;
+}
+ul >li{
+	color: white;
+	display:inline;
+	padding-left: 30px;
+}
+nav{
+	float: right;
+	margin-top: -29px;
+	margin-right: 50px;
+}
+.signin{
+	border-radius: 40px;
+	background-color: white;
+	color: #B80000;
+	margin-left: 30px;
+	padding: 10px 39px;
+}
+.pay{
+	color: red;
+	margin: 30px 80px;
+	font-size: 25px;
+}
+.signup{
+	border:1px white solid;
+	border-radius: 40px;
+	margin-left: 30px;
+	padding: 10px 39px;
+}
+form{
+	background-color: rgb(243, 243, 241);
+	margin-left: 50px;
+	border-top: 1px solid;
+	border-top-color: green;
+	width: 50%;
+	padding: 30px 50px;
+	font-size: 13px;
+	line-height: 20px;
+}
+.star{
+	color: red;
+}
+input,select{
+	margin-top: 2px;
+	width: 100%;
+	padding: 7px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+.one{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 35px;
+}
+.two{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 35px;
+}
+.three{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 35px;
+}
+.table{
+	background-color: lightgrey;
+	padding: 13px 0px;
+}
+
+table{
+	background-color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 160px;
+	margin-left: 15px;
+}
+.submit{
+	width: 120px;
+	height: 50px;
+	background-color: #228B22;
+	color: white;
+	border-radius: 3px;
+}
+.reset{
+	width: 120px;
+	height: 50px;
+	background-color: white;
+	color: red;
+	border:1px solid red;
+	margin-right: 530px;
+	border-radius: 3px;
+}
+.subreset{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+footer{
+	background-color: rgb(243, 243, 241);
+	margin-top: 25px;
+	padding-top: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+	font-size: 14px;
+	color: grey;
+}
+.footer{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	
+}
+.contact{
+	color: black;
+	font-size: 25px;
+}
+.mos{
+	color: rgb(64, 64, 64);
+}
+hr{
+	margin-top: 50px;
+	color: grey;
+}
+.copy{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
